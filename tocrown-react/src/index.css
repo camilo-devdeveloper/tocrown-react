@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+
+@source '../**/*.jsx';
+@source '../**/*.js';
+
+
+  @theme {
+
+
+    --color-verdeOscuro:#002612;
+    --color-verdeMedio:#002612
+    --color-verdeLima:#8cd400;
+    --color-verdeBrillante:#38ac49;
+    --color-amarillo:#f9c22e;
+    --color-amarilloMedio: #d9a519;
+    --color-amarilloClaro: #f6f2b1;
+    --color-naranja:#ff4d29
+    --color-negro:#1a1b15;
+    --color-grisOscuro:#454545;
+    --color-grisMediano:#e5e5e5;
+    --color-grisClaro:#f6f6f6;
+    --color-negro:#1a1b15;
+    --color-blanco:#fff;
+    --color-blancoGris:#e8e9eb;
+  }
+
+  html {
+    @apply  text-negro;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-blanco;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-grisClaro;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-grisMediano;
+  }
